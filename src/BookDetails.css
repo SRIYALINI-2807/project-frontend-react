@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2023/02/01/21/10/background-7761315_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.book-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 80px;
+    max-width: 900px;
+    margin: auto;
+    background-image: url('https://cdn.pixabay.com/photo/2022/06/25/13/33/landscape-7283516_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-details-image {
+    width: 300px;
+    height: 200px; /* Added 'px' unit */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.book-details-content {
+    flex: 1;
+}
+
+.book-details-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book-details-description {
+    font-size: 30px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.book-details-read-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-details-error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-top: 50px;
+}

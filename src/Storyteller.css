@@ -1,0 +1,70 @@
+.storyteller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url('https://cdn.pixabay.com/photo/2023/08/19/19/59/mountains-8201132_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.genre-section {
+  margin-bottom: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.genre-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #321e02 !important;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px; /* Original size */
+}
+
+.book-image {
+  width: 100px; /* Original size */
+  height: 150px; /* Original size */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-title {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #2c1d02;
+  text-decoration: none; /* Remove underline */
+}
+
+.more-button {
+  background-color: #543306;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.more-button:hover {
+  background-color: #d7dce2;
+}
